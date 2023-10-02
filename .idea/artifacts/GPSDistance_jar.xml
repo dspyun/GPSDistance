@@ -3,6 +3,7 @@
     <output-path>$PROJECT_DIR$/out/artifacts/GPSDistance_jar</output-path>
     <root id="archive" name="GPSDistance.jar">
       <element id="module-output" name="GPSDistance" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jetbrains/annotations/20.1.0/annotations-20.1.0.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/net/sourceforge/jexcelapi/jxl/2.6.12/jxl-2.6.12.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/log4j/log4j/1.2.14/log4j-1.2.14.jar" path-in-jar="/" />
     </root>

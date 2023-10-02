@@ -10,7 +10,7 @@ public class GPSDistance {
 
         MyExcel myexcel = new MyExcel();
         //String s = argss[0];
-        //System.out.println(args[0]);
+        System.out.println(args[0]);
         //String[] args = {"test.xls"};
         if (args.length >= 1) {
             String result = myexcel.GPSExcel2Distance(args[0]);

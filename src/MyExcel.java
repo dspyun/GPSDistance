@@ -44,6 +44,7 @@ public class MyExcel {
                         lat2= Float.parseFloat(lat2_str);
                         lng2 = Float.parseFloat(lng2_str);
                         float distance = gpsdistance(lat1,lng1,lat2,lng2);
+                        System.out.println(Float.toString(distance));
                         result += Float.toString(distance*1000) + "\n";
                     }
                 }
